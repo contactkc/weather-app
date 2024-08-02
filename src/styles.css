@@ -45,12 +45,34 @@ html, body {
     overflow: hidden;
 }
 
+/* CARD */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    animation: fade-down 0.5s;    
+}
+
+.card {
+    width: 100%;
+    max-width: 600px;
+    height: 900px;
+    background: var(--dark-base);
+    border-radius: 30px;
+    border: 1px solid rgba(250, 250, 250, 0.2);
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 30px;
+}
+
 /* WEATHER APP TEXT ON SIDE */
 .side-text {
     display: flex;
     flex-direction: column;
     position: fixed;
-    left: 40rem;
+    left: 32rem;
 }
 
 .side-text > p {
@@ -84,28 +106,6 @@ html, body {
     border-bottom: 1px solid rgba(250, 250, 250, 1);
 }
 
-/* CARD */
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    overflow: hidden;
-    animation: fade-down 0.5s;    
-}
-
-.card {
-    width: 100%;
-    max-width: 600px;
-    height: 900px;
-    background: var(--dark-base);
-    border-radius: 30px;
-    border: 2px solid rgba(250, 250, 250, 0.2);
-    box-sizing: border-box;
-    overflow: hidden;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 30px;
-}
-
 /* SEARCH BAR */
 .search {
     margin-top: var(--margin-xxl);
@@ -118,7 +118,7 @@ html, body {
 .search-btn {
     background: transparent;
     color: var(--dark-950);
-    border: 2px solid rgba(250, 250, 250, 0.7);
+    border: 1px solid rgba(250, 250, 250, 0.7);
     padding: 15px;
     border-radius: 20px;
     cursor: pointer;
@@ -131,7 +131,7 @@ html, body {
 }
 
 .search-bar {
-    border: 2px solid rgba(250, 250, 250, 0.7);
+    border: 1px solid rgba(250, 250, 250, 0.7);
     border-radius: 20px;
     text-align: left;
     margin-right: 15px;
