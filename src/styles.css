@@ -45,6 +45,7 @@ html, body {
     overflow: hidden;
 }
 
+/* WEATHER APP TEXT ON SIDE */
 .side-text {
     display: flex;
     flex-direction: column;
@@ -106,7 +107,6 @@ html, body {
 }
 
 /* SEARCH BAR */
-
 .search {
     margin-top: var(--margin-xxl);
     display: flex;
@@ -156,7 +156,6 @@ input.search-form:focus {
 }
 
 /* INFORMATION */
-
 .information > h1 {
     font-size: 3em;
     margin-top: var(--margin-xxl);
@@ -195,6 +194,7 @@ input.search-form:focus {
     position: relative;
 }
 
+/* ANIMATIONS */
 @keyframes fade-down {
     0% {
         opacity: 0;
